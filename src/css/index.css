@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    background: linear-gradient(135deg, rgb(1, 13, 26) 00%, rgba(28, 1, 4, 0.7) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #f5f5f5;
+    text-align: center;
+    overflow-x: hidden; 
+}
+
+
+header {
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    transition: opacity 0.5s ease;
+}
+
+header img {
+    width: 450px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.8)); 
+    animation: pulseGlow 2s infinite;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: calc(80vh - 50px);
+   
+}
+
+
+.champion-card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-image: linear-gradient(45deg, #1E90FF, #FFD700, #FF4500, #1E90FF);
+    border-image-slice: 1; /* Hace que el borde se adapte */
+    border-radius: 12px;
+    background: rgba(1, 16, 35, 0.734); /* Fondo oscuro translúcido */
+    box-shadow: 0 8px 16px rgba(40, 32, 32, 0.6);
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 1s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.champion-card:hover {
+    transform: scale(0.8);
+    box-shadow: 0 8px 24px rgba(212, 214, 108, 0.9);
+    border-image: linear-gradient(45deg, #FFD700, #1E90FF, #32CD32, #FFD700); 
+}
+
+
+.champion-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+.champion-card h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFD700; 
+    text-shadow: 0 0 5px rgba(219, 236, 38, 0.199);
+}
+
+.champion-card p {
+    font-size: 14px;
+    padding: 12px;
+    background: rgba(27, 40, 56, 0.9);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 215, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 153, 255, 0.5);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Footer */
+footer {
+    padding: 10px;
+    background: #1f1f1f;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+

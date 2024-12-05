@@ -1,0 +1,815 @@
+
+{
+    "type": "champion",
+    "format": "standAloneComplex",
+    "version": "13.18.1",
+    "data": {
+        "Aatrox": {
+            "version": "13.18.1",
+            "id": "Aatrox",
+            "key": "266",
+            "name": "Aatrox",
+            "title": "la Espada de los Oscuros",
+            "blurb": "Aatrox y sus hermanos, otrora respetados defensores de Shurima contra el Vacío, acabarían convirtiéndose en una amenaza aún mayor para Runaterra y solo conocieron la derrota ante el uso astuto de hechizos mortales. No obstante, tras siglos de reclusión...",
+            "info": {
+                "attack": 8,
+                "defense": 4,
+                "magic": 3,
+                "difficulty": 4
+            },
+            "image": {
+                "full": "Aatrox.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "partype": "Pozo sangriento",
+            "stats": {
+                "hp": 650,
+                "hpperlevel": 114,
+                "mp": 0,
+                "mpperlevel": 0,
+                "movespeed": 345,
+                "armor": 38,
+                "armorperlevel": 4.45,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 175,
+                "hpregen": 3,
+                "hpregenperlevel": 1,
+                "mpregen": 0,
+                "mpregenperlevel": 0,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 60,
+                "attackdamageperlevel": 5,
+                "attackspeedperlevel": 2.5,
+                "attackspeed": 0.651
+            }
+        },
+        "Ahri": {
+            "version": "13.18.1",
+            "id": "Ahri",
+            "key": "103",
+            "name": "Ahri",
+            "title": "La Mujer Zorro de nueve Colas",
+            "blurb": "Ahri es una raposa vastaya conectada de forma innata a la magia del reino de los espíritus. Es capaz de manipular las emociones de su presa antes de consumir su esencia, proceso que le transmite los recuerdos de cada alma que consume. Otrora una...",
+            "info": {
+                "attack": 3,
+                "defense": 4,
+                "magic": 8,
+                "difficulty": 5
+            },
+            "image": {
+                "full": "Ahri.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 48,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Mage",
+                "Assassin"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 590,
+                "hpperlevel": 96,
+                "mp": 418,
+                "mpperlevel": 25,
+                "movespeed": 330,
+                "armor": 21,
+                "armorperlevel": 4.7,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 550,
+                "hpregen": 2.5,
+                "hpregenperlevel": 0.6,
+                "mpregen": 8,
+                "mpregenperlevel": 0.8,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 53,
+                "attackdamageperlevel": 3,
+                "attackspeedperlevel": 2,
+                "attackspeed": 0.668
+            }
+        },
+        "Akali": {
+            "version": "13.18.1",
+            "id": "Akali",
+            "key": "84",
+            "name": "Akali",
+            "title": "la Asesina Sigilosa",
+            "blurb": "Tras abandonar la orden de los Kinkou y su título de Puño de la Sombra, Akali actúa ahora en solitario y está lista para convertirse en el arma mortal que necesita su gente. Aunque no renuncia a las enseñanzas de Shen, su maestro, ha jurado defender...",
+            "info": {
+                "attack": 5,
+                "defense": 3,
+                "magic": 8,
+                "difficulty": 7
+            },
+            "image": {
+                "full": "Akali.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 96,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Assassin"
+            ],
+            "partype": "Energía",
+            "stats": {
+                "hp": 570,
+                "hpperlevel": 119,
+                "mp": 200,
+                "mpperlevel": 0,
+                "movespeed": 345,
+                "armor": 23,
+                "armorperlevel": 4.7,
+                "spellblock": 37,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 9,
+                "hpregenperlevel": 0.9,
+                "mpregen": 50,
+                "mpregenperlevel": 0,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 62,
+                "attackdamageperlevel": 3.3,
+                "attackspeedperlevel": 3.2,
+                "attackspeed": 0.625
+            }
+        },
+        "Akshan": {
+            "version": "13.18.1",
+            "id": "Akshan",
+            "key": "166",
+            "name": "Akshan",
+            "title": "el Centinela Rebelde",
+            "blurb": "Impávido ante el peligro, Akshan combate el mal con gran carisma, ganas de impartir justa venganza y una evidente falta de camisetas. Domina el arte del combate sigiloso, por lo que es capaz de desaparecer a los ojos de sus enemigos y volver a aparecer...",
+            "info": {
+                "attack": 0,
+                "defense": 0,
+                "magic": 0,
+                "difficulty": 0
+            },
+            "image": {
+                "full": "Akshan.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 144,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Marksman",
+                "Assassin"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 630,
+                "hpperlevel": 107,
+                "mp": 350,
+                "mpperlevel": 40,
+                "movespeed": 330,
+                "armor": 26,
+                "armorperlevel": 4.7,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 500,
+                "hpregen": 3.75,
+                "hpregenperlevel": 0.65,
+                "mpregen": 8.2,
+                "mpregenperlevel": 0.7,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 52,
+                "attackdamageperlevel": 3,
+                "attackspeedperlevel": 4,
+                "attackspeed": 0.638
+            }
+        },
+        "Alistar": {
+            "version": "13.18.1",
+            "id": "Alistar",
+            "key": "12",
+            "name": "Alistar",
+            "title": "El Minotauro",
+            "blurb": "Alistar, un poderoso guerrero con una reputación temible, busca venganza por la muerte de su clan a manos del imperio noxiano. Aunque fue esclavizado y forzado a vivir como gladiador, fue su voluntad inquebrantable lo que le impidió convertirse en una...",
+            "info": {
+                "attack": 6,
+                "defense": 9,
+                "magic": 5,
+                "difficulty": 7
+            },
+            "image": {
+                "full": "Alistar.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 192,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Tank",
+                "Support"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 685,
+                "hpperlevel": 120,
+                "mp": 350,
+                "mpperlevel": 40,
+                "movespeed": 330,
+                "armor": 47,
+                "armorperlevel": 4.7,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 8.5,
+                "hpregenperlevel": 0.85,
+                "mpregen": 8.5,
+                "mpregenperlevel": 0.8,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 62,
+                "attackdamageperlevel": 3.75,
+                "attackspeedperlevel": 2.125,
+                "attackspeed": 0.625
+            }
+        },
+        "Amumu": {
+            "version": "13.18.1",
+            "id": "Amumu",
+            "key": "32",
+            "name": "Amumu",
+            "title": "La Momia Triste",
+            "blurb": "Cuenta la leyenda que Amumu es un alma solitaria y melancólica de la vieja Shurima que vaga por el mundo en busca de un amigo. Condenado por una maldición ancestral, su destino es permanecer solo para siempre, pues su tacto es muerte y su cariño, la...",
+            "info": {
+                "attack": 2,
+                "defense": 6,
+                "magic": 8,
+                "difficulty": 3
+            },
+            "image": {
+                "full": "Amumu.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 240,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Tank",
+                "Mage"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 685,
+                "hpperlevel": 94,
+                "mp": 285,
+                "mpperlevel": 40,
+                "movespeed": 335,
+                "armor": 30,
+                "armorperlevel": 4,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 9,
+                "hpregenperlevel": 0.85,
+                "mpregen": 7.4,
+                "mpregenperlevel": 0.55,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 53,
+                "attackdamageperlevel": 3.8,
+                "attackspeedperlevel": 2.18,
+                "attackspeed": 0.736
+            }
+        },
+        "Anivia": {
+            "version": "13.18.1",
+            "id": "Anivia",
+            "key": "34",
+            "name": "Anivia",
+            "title": "La Criofénix",
+            "blurb": "Anivia es un espíritu alado benevolente que soporta ciclos interminables de vida, muerte y nacimiento para proteger Freljord. Semidiosa nacida del hielo implacable y los vientos crueles, canaliza estos poderes elementales para anular a cualquiera que se...",
+            "info": {
+                "attack": 1,
+                "defense": 4,
+                "magic": 10,
+                "difficulty": 10
+            },
+            "image": {
+                "full": "Anivia.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 288,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Mage",
+                "Support"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 550,
+                "hpperlevel": 92,
+                "mp": 495,
+                "mpperlevel": 45,
+                "movespeed": 325,
+                "armor": 21,
+                "armorperlevel": 4.9,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 600,
+                "hpregen": 5.5,
+                "hpregenperlevel": 0.55,
+                "mpregen": 8,
+                "mpregenperlevel": 0.8,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 51,
+                "attackdamageperlevel": 3.2,
+                "attackspeedperlevel": 1.68,
+                "attackspeed": 0.625
+            }
+        },
+        "Annie": {
+            "version": "13.18.1",
+            "id": "Annie",
+            "key": "1",
+            "name": "Annie",
+            "title": "La Hija de la Oscuridad",
+            "blurb": "Peligrosa pero encantadoramente precoz, Annie es una pequeña maga con un inmenso poder piromántico. Incluso en los parajes montañosos al norte de Noxus es una hechicera sin precedentes. Su afinidad natural con el fuego se manifestó a temprana edad en...",
+            "info": {
+                "attack": 2,
+                "defense": 3,
+                "magic": 10,
+                "difficulty": 6
+            },
+            "image": {
+                "full": "Annie.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 336,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Mage"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 560,
+                "hpperlevel": 102,
+                "mp": 418,
+                "mpperlevel": 25,
+                "movespeed": 335,
+                "armor": 19,
+                "armorperlevel": 4.7,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 625,
+                "hpregen": 5.5,
+                "hpregenperlevel": 0.55,
+                "mpregen": 8,
+                "mpregenperlevel": 0.8,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 50,
+                "attackdamageperlevel": 2.65,
+                "attackspeedperlevel": 1.36,
+                "attackspeed": 0.579
+            }
+        },
+
+        "Ashe": {
+            "version": "13.18.1",
+            "id": "Ashe",
+            "key": "22",
+            "name": "Ashe",
+            "title": "La Arquera de Hielo",
+            "blurb": "Ashe, comandante hija del hielo de la tribu de Avarosa, lidera las hordas más numerosas del norte. Impasible, inteligente e idealista, aunque incómoda en su papel de líder, utiliza los poderes mágicos ancestrales de su linaje para empuñar un arco de...",
+            "info": {
+                "attack": 7,
+                "defense": 3,
+                "magic": 2,
+                "difficulty": 4
+            },
+            "image": {
+                "full": "Ashe.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 432,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Marksman",
+                "Support"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 640,
+                "hpperlevel": 101,
+                "mp": 280,
+                "mpperlevel": 35,
+                "movespeed": 325,
+                "armor": 26,
+                "armorperlevel": 4.6,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 600,
+                "hpregen": 3.5,
+                "hpregenperlevel": 0.55,
+                "mpregen": 7,
+                "mpregenperlevel": 0.65,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 59,
+                "attackdamageperlevel": 2.95,
+                "attackspeedperlevel": 3.33,
+                "attackspeed": 0.658
+            }
+        },
+        "AurelionSol": {
+            "version": "13.18.1",
+            "id": "AurelionSol",
+            "key": "136",
+            "name": "Aurelion Sol",
+            "title": "El Forjador de Estrellas",
+            "blurb": "Aurelion Sol solía agraciar al vasto vacío del cosmos con las maravillas celestiales que él mismo ideaba. Ahora, se ve forzado a hacer uso de su increíble poder para satisfacer los deseos de un imperio espacial que lo ha engañado para convertirlo en su...",
+            "info": {
+                "attack": 2,
+                "defense": 3,
+                "magic": 8,
+                "difficulty": 7
+            },
+            "image": {
+                "full": "AurelionSol.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 0,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Mage"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 620,
+                "hpperlevel": 90,
+                "mp": 530,
+                "mpperlevel": 40,
+                "movespeed": 335,
+                "armor": 22,
+                "armorperlevel": 4,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 550,
+                "hpregen": 5.5,
+                "hpregenperlevel": 0.55,
+                "mpregen": 8,
+                "mpregenperlevel": 0.75,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 55,
+                "attackdamageperlevel": 3.2,
+                "attackspeedperlevel": 1.5,
+                "attackspeed": 0.625
+            }
+        },
+
+        "Blitzcrank": {
+            "version": "13.18.1",
+            "id": "Blitzcrank",
+            "key": "53",
+            "name": "Blitzcrank",
+            "title": "El Gran Gólem de Vapor",
+            "blurb": "Blitzcrank es un autómata enorme, casi indestructible, creado originalmente para el tratamiento de residuos tóxicos. Sin embargo, este propósito original le parecía demasiado restrictivo, así que se automodificó para servir mejor a los débiles del...",
+            "info": {
+                "attack": 4,
+                "defense": 8,
+                "magic": 5,
+                "difficulty": 4
+            },
+            "image": {
+                "full": "Blitzcrank.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 192,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Tank",
+                "Fighter"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 650,
+                "hpperlevel": 109,
+                "mp": 267,
+                "mpperlevel": 40,
+                "movespeed": 325,
+                "armor": 40,
+                "armorperlevel": 4.7,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 7.5,
+                "hpregenperlevel": 0.75,
+                "mpregen": 8.5,
+                "mpregenperlevel": 0.8,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 62,
+                "attackdamageperlevel": 3.5,
+                "attackspeedperlevel": 1.13,
+                "attackspeed": 0.625
+            }
+        },
+
+
+        "Caitlyn": {
+            "version": "13.18.1",
+            "id": "Caitlyn",
+            "key": "51",
+            "name": "Caitlyn",
+            "title": "La Sheriff de Piltover",
+            "blurb": "Reconocida como su mejor pacificadora, Caitlyn es también la mejor arma de Piltover para librar a la ciudad de sus elusivos elementos criminales. A menudo trabaja con Vi, y actúa como un frío y eficiente contrapunto para la naturaleza más impetuosa de...",
+            "info": {
+                "attack": 8,
+                "defense": 2,
+                "magic": 2,
+                "difficulty": 6
+            },
+            "image": {
+                "full": "Caitlyn.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 384,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Marksman"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 580,
+                "hpperlevel": 107,
+                "mp": 315,
+                "mpperlevel": 40,
+                "movespeed": 325,
+                "armor": 27,
+                "armorperlevel": 4.7,
+                "spellblock": 30,
+                "spellblockperlevel": 1.3,
+                "attackrange": 650,
+                "hpregen": 3.5,
+                "hpregenperlevel": 0.55,
+                "mpregen": 7.4,
+                "mpregenperlevel": 0.7,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 60,
+                "attackdamageperlevel": 3.8,
+                "attackspeedperlevel": 4,
+                "attackspeed": 0.681
+            }
+        },
+        "Camille": {
+            "version": "13.18.1",
+            "id": "Camille",
+            "key": "164",
+            "name": "Camille",
+            "title": "la Sombra de Acero",
+            "blurb": "Convertida en un arma viviente diseñada para operar fuera de la ley, Camille es la jefa de espías del clan Ferros, una elegante agente de élite que se asegura de que nada amenace el funcionamiento de Piltover ni de Zaun. Su adaptabilidad y minuciosidad...",
+            "info": {
+                "attack": 8,
+                "defense": 6,
+                "magic": 3,
+                "difficulty": 4
+            },
+            "image": {
+                "full": "Camille.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 432,
+                "y": 48,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 646,
+                "hpperlevel": 99,
+                "mp": 339,
+                "mpperlevel": 52,
+                "movespeed": 340,
+                "armor": 35,
+                "armorperlevel": 5,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 8.5,
+                "hpregenperlevel": 0.8,
+                "mpregen": 8.15,
+                "mpregenperlevel": 0.75,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 68,
+                "attackdamageperlevel": 3.8,
+                "attackspeedperlevel": 2.5,
+                "attackspeed": 0.644
+            }
+        },
+
+        "Chogath": {
+            "version": "13.18.1",
+            "id": "Chogath",
+            "key": "31",
+            "name": "Cho'Gath",
+            "title": "El Terror del Vacío",
+            "blurb": "Desde el momento en que Cho'Gath emergió por primera vez a la dura luz solar de Runaterra, a la bestia solo le impulsaba el hambre más pura e insaciable. La perfecta expresión del deseo del Vacío de acabar con la vida, la compleja biología de Cho'Gath...",
+            "info": {
+                "attack": 3,
+                "defense": 7,
+                "magic": 7,
+                "difficulty": 5
+            },
+            "image": {
+                "full": "Chogath.png",
+                "sprite": "champion0.png",
+                "group": "champion",
+                "x": 48,
+                "y": 96,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Tank",
+                "Mage"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 644,
+                "hpperlevel": 94,
+                "mp": 270,
+                "mpperlevel": 60,
+                "movespeed": 345,
+                "armor": 38,
+                "armorperlevel": 5,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 125,
+                "hpregen": 9,
+                "hpregenperlevel": 0.85,
+                "mpregen": 7.2,
+                "mpregenperlevel": 0.45,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 69,
+                "attackdamageperlevel": 4.2,
+                "attackspeedperlevel": 1.44,
+                "attackspeed": 0.625
+            }
+        },
+       
+
+        "Fizz": {
+            "version": "13.18.1",
+            "id": "Fizz",
+            "key": "105",
+            "name": "Fizz",
+            "title": "El Gamberro de las Mareas",
+            "blurb": "Fizz es un yordle anfibio que habita entre los arrecifes de alrededor de Aguas Estancadas. Suele recuperar y devolver los diezmos arrojados al mar por capitanes supersticiosos, pero incluso los marineros más agudos saben que no hay que plantarle cara...",
+            "info": {
+                "attack": 6,
+                "defense": 4,
+                "magic": 7,
+                "difficulty": 6
+            },
+            "image": {
+                "full": "Fizz.png",
+                "sprite": "champion1.png",
+                "group": "champion",
+                "x": 144,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Assassin",
+                "Fighter"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 640,
+                "hpperlevel": 106,
+                "mp": 317,
+                "mpperlevel": 52,
+                "movespeed": 335,
+                "armor": 22,
+                "armorperlevel": 4.6,
+                "spellblock": 32,
+                "spellblockperlevel": 2.05,
+                "attackrange": 175,
+                "hpregen": 8,
+                "hpregenperlevel": 0.7,
+                "mpregen": 6,
+                "mpregenperlevel": 0.8,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 58,
+                "attackdamageperlevel": 3,
+                "attackspeedperlevel": 3.1,
+                "attackspeed": 0.658
+            }
+        },
+
+        "Yuumi": {
+            "version": "13.18.1",
+            "id": "Yuumi",
+            "key": "350",
+            "name": "Yuumi",
+            "title": "la Gata Mágica",
+            "blurb": "Yuumi, una gata mágica de Ciudad de Bandle, fue antaño la compañera de una hechicera yordle, Norra. Tras la misteriosa desaparición de su maestra, Yuumi se convirtió en la guardiana del Libro de umbrales de Norra, un objeto sintiente cuyas páginas...",
+            "info": {
+                "attack": 5,
+                "defense": 1,
+                "magic": 8,
+                "difficulty": 2
+            },
+            "image": {
+                "full": "Yuumi.png",
+                "sprite": "champion5.png",
+                "group": "champion",
+                "x": 336,
+                "y": 0,
+                "w": 48,
+                "h": 48
+            },
+            "tags": [
+                "Support",
+                "Mage"
+            ],
+            "partype": "Maná",
+            "stats": {
+                "hp": 500,
+                "hpperlevel": 69,
+                "mp": 440,
+                "mpperlevel": 45,
+                "movespeed": 330,
+                "armor": 25,
+                "armorperlevel": 4.2,
+                "spellblock": 25,
+                "spellblockperlevel": 1.1,
+                "attackrange": 425,
+                "hpregen": 5,
+                "hpregenperlevel": 0.55,
+                "mpregen": 10,
+                "mpregenperlevel": 0.4,
+                "crit": 0,
+                "critperlevel": 0,
+                "attackdamage": 49,
+                "attackdamageperlevel": 3.1,
+                "attackspeedperlevel": 1,
+                "attackspeed": 0.625
+            }
+        }
+ 
+
+
+    }
+}

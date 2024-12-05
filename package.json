@@ -1,0 +1,14 @@
+{
+  "name": "api-del-lol",
+  "version": "1.0.0",
+  "description": "Descripción de tu proyecto",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel src/index.html", 
+    "build": "parcel build src/index.html" 
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"  
+  }
+}
+
