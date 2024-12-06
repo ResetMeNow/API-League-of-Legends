@@ -1,5 +1,4 @@
-import { cargarDatos } from './loadData.js';
-import { mostrarCampeones } from './showChampions.js';
+
 
 document.addEventListener("DOMContentLoaded", () => {
     const logo = document.getElementById("logo");
@@ -7,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Evento al hacer clic en el logo
     logo.addEventListener("click", () => {
-        fetch("assets/data/champion.json")
+        fetch("src/assets/data/champion.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Error al cargar el JSON");
@@ -33,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
             championCard.className = "champion-card";
 
             championCard.innerHTML = `
-                <img src="assets/images/${champion.image.full}" alt="${champion.name}">
+                <img src="src/assets/images/${champion.image.full}" alt="${champion.name}">
                 <h3>${champion.name} (${champion.title})</h3>
                 <p>${champion.blurb}</p>
                 <p><strong>Roles:</strong> ${champion.tags.join(", ")}</p>
